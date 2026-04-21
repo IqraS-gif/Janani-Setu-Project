@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="docs/assets/logo.png" alt="Janani Setu Logo" width="200">
+  <img src="docs/assets/logo.jpeg" alt="Janani Setu Logo" width="200">
   <br>
   🏥 Janani-Setu (Maa App)
 </h1>
@@ -57,7 +57,7 @@ Enabling rapid diagnostic overview and intervention:
 Janani-Setu utilizes a robust, "store-and-forward" architecture designed for high-impact maternal care in underserved communities.
 
 <p align="center">
-  <img src="docs/assets/architecture_diagram.png" alt="Architecture Diagram" width="800">
+  <img src="docs/assets/architecture_diagram.jpeg" alt="Architecture Diagram" width="800">
 </p>
 
 ### 🛠️ The Stack

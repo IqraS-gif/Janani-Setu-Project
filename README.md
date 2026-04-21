@@ -53,6 +53,15 @@ Enabling rapid diagnostic overview and intervention:
 
 ---
 
+## 📶 Engineered for Zero-Connectivity & Rural Realities
+Janani-Setu is built explicitly for the technological constraints of rural India:
+- **🚫 No-Internet Fallbacks:** True offline-first architecture. All core diagnostics (Ankle Scan, Gluco-Tracker, Vision Tests) function perfectly without any network. Data is stored locally and syncs automatically only when a connection is available.
+- **🗣️ Voice-First & Multilingual:** Eliminates literacy barriers with intuitive voice-based interactions and local language support, making it accessible to every mother.
+- **⚙️ Local Edge Processing:** AI models run directly on the smartphone. This ensures instant results and total data privacy, even in heartland areas with zero signal.
+- **💾 "Lite" Storage Optimization:** Highly optimized to run smoothly on older, low-end Android devices without draining battery or hoarding storage.
+
+---
+
 ## 🏗️ Technology Stack & Architecture
 Janani-Setu utilizes a robust, "store-and-forward" architecture designed for high-impact maternal care in underserved communities.
 

@@ -1,4 +1,8 @@
-<h1 align="center">🏥 Janani-Setu (Maa App)</h1>
+<h1 align="center">
+  <img src="docs/assets/logo.png" alt="Janani Setu Logo" width="200">
+  <br>
+  🏥 Janani-Setu (Maa App)
+</h1>
 
 <p align="center">
   <em>An elegant, offline-first, AI-powered maternal health ecosystem built for rural India.</em>
@@ -49,12 +53,27 @@ Enabling rapid diagnostic overview and intervention:
 
 ---
 
-## 📱 Built for Rural India (Technology Stack)
-Janani-Setu is engineered specifically to conquer the technological constraints of rural deployments:
-- **🗣️ Voice-Based Interactions:** Intuitive UI ensuring accessibility for users of all literacy and language levels.
-- **📶 No-Internet Fallbacks:** True offline-first architecture. Core assessments function perfectly without a network, storing data seamlessly until connectivity returns.
-- **⚙️ Local Processing (Edge AI):** All Machine Learning models run locally on the device, ensuring data privacy and instant processing regardless of signal strength.
-- **💾 Less Storage App (Lite):** Highly compressed and optimized to run flawlessly on older, low-end Android phones without hoarding limited storage space or draining the battery.
+## 🏗️ Technology Stack & Architecture
+Janani-Setu utilizes a robust, "store-and-forward" architecture designed for high-impact maternal care in underserved communities.
+
+<p align="center">
+  <img src="docs/assets/architecture_diagram.png" alt="Architecture Diagram" width="800">
+</p>
+
+### 🛠️ The Stack
+- **Frontend:** React Native (Cross-platform mobile)
+- **Backend:** FastAPI (Python), RESTful APIs, Pydantic (Data Validation)
+- **Database:** Firebase Firestore (Cloud), SQLite (Local Storage), Real-time Sync
+- **ML Models:** 
+  - **LSTM:** Blood Pressure Prediction
+  - **XGBoost:** Diabetes Risk Prediction
+  - **CLAHE:** Image Enhancement for diagnostics
+  - **SSD:** Object Detection for nutritional analysis
+
+### 🛡️ Failure & Edge-Case Handling
+- **Network Failure:** Encrypted local storage with automatic store-and-forward syncing once connectivity returns.
+- **Literacy Failure:** Multilingual voice guidance enables fully voice-driven interaction.
+- **Sync Conflicts:** Timestamp-based resolution ensures the latest health data is always prioritized.
 
 ---
 

@@ -58,6 +58,13 @@ Janani-Setu is engineered specifically to conquer the technological constraints 
 
 ---
 
+## 🤖 Model Accuracy & Performance
+Our embedded predictive models are optimized for both extreme lightweight deployment and high clinical reliability:
+- **Blood Pressure (BP) Prediction [LSTM Model]:** Achieves a Mean Absolute Error (MAE) of **0.83 mmHg**.
+- **Gestational Diabetes Risk [XGBoost Model]:** Achieves an F1 Score of **0.56**, flagging at-risk mothers for timely intervention.
+
+---
+
 ## 💰 Business Model & Scalability
 To serve the most vulnerable populations, Janani-Setu operates on a highly frugal B2G (Business-to-Government) and B2NGO model:
 > **Our architecture ensures operational costs of less than $1 per user, per year.**

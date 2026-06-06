@@ -8,7 +8,12 @@
   <em>An elegant, offline-first, AI-powered maternal health ecosystem built for rural India.</em>
 </p>
 
----
+<p align="center">
+  📱 <a href="https://drive.google.com/file/d/1-E3MzKU239mM6lea57lLsfNtqBQyCild/view?usp=sharing">Download APK</a>
+  &nbsp;|&nbsp;
+  🎥 <a href="https://youtu.be/nzaFBtRQ_1M">Watch Demo Video</a>
+</p>
+
 
 ## 🚨 The Problem
 Maternal and infant health outcomes in rural India remain a critical challenge due to isolated geography, a severe shortage of specialist doctors, and unreliable infrastructure. Traditional frontline health workers (ASHAs) are overburdened and rely on manual tracking, leading to delayed interventions.
